@@ -1,5 +1,5 @@
 export default {
-    template: `<h1>This page dosn't exist!</h1>`,
+    template: `<h1>This page doesn't exist!</h1>`,
 
 
     created: function() {
