@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="stylesheet" href="https://use.typekit.net/von5wqs.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- add Vue libraries here -->
@@ -14,8 +15,12 @@
 <body>
 
 
+
+    
+
     <main id="app">
-        <div class="header">
+      
+        <div id="head" class="header">
             <router-link to="/"><img src="images/LOGO.svg" alt="logo"></router-link>
     
             <section class="search">
@@ -34,7 +39,14 @@
         <router-link to="/app"></router-link> -->
         <!-- this is like a {{{ body }}} tag in handlebars
         our components get rendered here -->
+
+        
+
         <router-view></router-view>
+
+        
+
+
 
         <footer class="footer">
 

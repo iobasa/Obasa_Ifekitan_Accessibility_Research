@@ -114,6 +114,20 @@ font-style: normal;
     color: white;
 }
 
+#top{
+
+    position: fixed;
+    z-index: +100;
+}
+
+#top a {
+
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    background-color: #FCA500;
+}
+
 .signup:hover{
     text-decoration: none;
     color: #FCA500;
@@ -124,6 +138,14 @@ font-style: normal;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.filter a{
+    border: none;
+}
+
+.filter a:hover{
+    border: 2px solid white;
 }
 
 .filter-sections img{
@@ -290,3 +312,89 @@ text-align: center;
     color: white;
     background-color: #6DCEAD;
 }
+
+/****************************************************************************************************************************/
+.player{
+    text-align: center;
+}
+
+.musicA{
+    margin-left: 20px;
+    width: 60%;
+    margin-top: 200px;
+
+}
+
+.musicA img{
+    width: 40%;
+    margin-top: 200px;
+
+}
+
+.video{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.alive{
+    color:#6DCEAD;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.controls button[data-state="subtitles"] {
+    height:85%;
+    text-indent:0;
+    font-size:16px;
+    font-size:1rem;
+    font-weight:bold;
+    color:#666;
+    background:#000;
+    border-radius:2px;
+}
+
+.subtitles-menu {
+    display:none;
+    position:absolute;
+    bottom:14.8%;
+    right:20px;
+    background:#666;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:100px;
+    padding:10px;
+}
+
+.subtitles-menu li {
+    padding:0;
+    text-align:center;
+}
+
+.subtitles-menu li button {
+    border:none;
+    background:#000;
+    color:#fff;
+    cursor:pointer;
+    width:90%;
+    padding:2px 5px;
+    border-radius:2px;
+}
+::cue {
+    color:#ccc;
+ }
+
+.audio{
+    width: 50%;
+}
+
+.lyrics h1{
+    font-size: 3rem;
+}
+
+.lyrics{
+    text-align: center;
+    line-height: 4rem;
+}
+
